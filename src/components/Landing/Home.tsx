@@ -14,9 +14,11 @@ function Home() {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex flex-col mb-[3.5%] w-[35%] rounded-l-3xl  items-start px-28 py-8 text-center bg-Charleston_Green">
-        <p className="text-5xl font-bold text-white font-Montserrat">Anirban</p>
-        <p className="text-5xl font-bold text-white font-Montserrat">
+      <div className="flex flex-col mb-4 md:mb-[3.5%] w-[90%] md:w-[35%] rounded-l-3xl items-start px-6 py-4 md:px-28 md:py-8 text-center bg-Charleston_Green">
+        <p className="text-3xl md:text-5xl font-bold text-white font-Montserrat">
+          Anirban
+        </p>
+        <p className="text-3xl md:text-5xl font-bold text-white font-Montserrat">
           Chakraborty
         </p>
       </div>
