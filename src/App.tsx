@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import About from "./components/Landing/About";
 import FilmList from "./components/Landing/FilmList";
 import Home from "./components/Landing/Home";
@@ -7,8 +8,18 @@ import Movies from "./components/Landing/Movies";
 import News from "./components/Landing/News";
 import Navbar from "./components/Navbar";
 import { movieDetails } from "./constants/moviesDetails";
+import { useLocation } from "react-router-dom";
 
 export default function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const elementId = location.pathname.substring(1); // Remove '/'
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
   return (
     <div>
       <Navbar />

@@ -1,6 +1,7 @@
 import React from "react";
 
 interface MoviesProps {
+  id: string;
   title: string;
   year: number;
   titleBgColor: "Eerie_Black" | "Fire_Engine_Red" | "Forest_Green";
@@ -12,6 +13,7 @@ interface MoviesProps {
 }
 
 const Movies: React.FC<MoviesProps> = ({
+  id,
   title,
   titleBgColor,
   year,
@@ -22,7 +24,7 @@ const Movies: React.FC<MoviesProps> = ({
   galleryImages,
 }) => {
   return (
-    <div className="flex flex-col">
+    <div id={id} className="flex flex-col">
       <div className="flex flex-col w-full min-h-screen">
         <div
           className={`flex flex-col md:flex-row items-center justify-center pb-10 md:pb-0 pt-20 md:pt-40 bg-${titleBgColor}`}
@@ -89,11 +91,10 @@ const Movies: React.FC<MoviesProps> = ({
                 <img
                   key={index}
                   src={image}
-                  className={`w-full md:w-${
-                    index === galleryImages.length - 1 && index % 2 === 0
-                      ? "full"
-                      : "1/2"
-                  }`}
+                  className={`w-full md:w-${index === galleryImages.length - 1 && index % 2 === 0
+                    ? "full"
+                    : "1/2"
+                    }`}
                   alt={`Gallery Image ${index + 1}`}
                 />
               ))}

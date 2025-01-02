@@ -65,6 +65,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .krona-one-regular {
   font-family: "Krona One", serif;
   font-weight: 400;

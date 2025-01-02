@@ -1,21 +1,29 @@
+import { Link } from "react-router-dom";
+
 function FilmList() {
   const films = [
     {
+      id: "piklur-janala",
       title: "Piklur Janala",
     },
     {
+      id: "jah-kala",
       title: "Jah Kala",
     },
     {
+      id: "bonosundari",
       title: "Bonosundari",
     },
     {
+      id: "mallik-bari",
       title: "Mallick Bari",
     },
     {
+      id: "nonte-fonte",
       title: "Nonte Fonte",
     },
     {
+      id: "o-abhagi",
       title: "O Abhagi",
     },
   ];
@@ -36,7 +44,9 @@ function FilmList() {
             className="flex justify-between items-center w-full "
           >
             <h1 className="font-Inter font-normal text-2xl md:text-4xl hover:underline hover:underline-offset-4">
-              {film.title}
+              <Link to={`/${film.id}`}>
+                {film.title}
+              </Link>
             </h1>
           </div>
         ))}

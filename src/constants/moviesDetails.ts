@@ -1,4 +1,5 @@
 interface MovieDetails {
+  id: string;
   title: string;
   year: number;
   titleBgColor: "Eerie_Black" | "Fire_Engine_Red" | "Forest_Green";
@@ -11,6 +12,7 @@ interface MovieDetails {
 
 export const movieDetails: MovieDetails[] = [
   {
+    id: "mallik-bari",
     title: "Mallick Bari",
     year: 2009,
     titleBgColor: "Eerie_Black",
@@ -19,7 +21,7 @@ export const movieDetails: MovieDetails[] = [
       "Sabyasachi Chakraborty",
       "Rimjhim Mitra",
       "Swarma Kamal Dutta",
-      "Kanchan Mullick",
+      "Kanchan Mallick",
       "Rishi Koushik",
       "Paoli Dam",
       "Biswanath Basu",
@@ -33,6 +35,7 @@ export const movieDetails: MovieDetails[] = [
     ],
   },
   {
+    id: "piklur-janala",
     title: "Piklur Janala",
     year: 2017,
     titleBgColor: "Eerie_Black",
@@ -47,6 +50,7 @@ export const movieDetails: MovieDetails[] = [
     ],
   },
   {
+    id: "nonte-fonte",
     title: "Nonte Fonte",
     year: 2023,
     titleBgColor: "Eerie_Black",
@@ -75,6 +79,7 @@ export const movieDetails: MovieDetails[] = [
     ],
   },
   {
+    id: "o-abhagi",
     title: "O Abhagi",
     year: 2024,
     titleBgColor: "Eerie_Black",
