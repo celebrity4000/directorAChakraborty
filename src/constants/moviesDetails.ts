@@ -104,4 +104,32 @@ export const movieDetails: MovieDetails[] = [
       "https://i.ibb.co/XCdKLMh/435574986-10224336755713438-7004916970106953552-n-1.png",
     ],
   },
+  {
+    id: "khacha",
+    title: "Khacha",
+    year: 2025,
+    titleBgColor: "Eerie_Black",
+    directors: ["Anirban Chakraborty"],
+    writters: ["Anirban Chakraborty"],
+    cast: [
+      "Rajatava Dutta",
+      "Mrinmoy Das",
+      "Mir Afsar Ali",
+      "Kanchana Moitra",
+      "Anindya Bandopadhyay",
+      "Sonali Chowdhury",
+      "Prattusa Pal",
+      "Krishna Bandopadhyay",
+      "Iman Chakraborty",
+      "Arunava Dutta",
+    ],
+    mainImage: "https://i.ibb.co/YkrZWz1/imgpsh-fullsize-anim.jpg",
+    galleryImages: [
+      "https://i.ibb.co/CPQRJx9/thumb-34446.jpg",
+      "https://i.ibb.co/frscsnC/download-2.jpg",
+
+      "https://i.ibb.co/HHVprKp/Screenshot-2025-01-10-010650.png",
+      "https://i.ibb.co/1mRbzyN/1736362198-enter-f-2.jpg",
+    ],
+  },
 ];
