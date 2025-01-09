@@ -26,6 +26,10 @@ function FilmList() {
       id: "o-abhagi",
       title: "O Abhagi",
     },
+    {
+      id: "khacha",
+      title: "Khacha",
+    },
   ];
   return (
     <div
@@ -44,9 +48,7 @@ function FilmList() {
             className="flex justify-between items-center w-full "
           >
             <h1 className="font-Inter font-normal text-2xl md:text-4xl hover:underline hover:underline-offset-4">
-              <Link to={`/${film.id}`}>
-                {film.title}
-              </Link>
+              <Link to={`/${film.id}`}>{film.title}</Link>
             </h1>
           </div>
         ))}
