@@ -9,6 +9,7 @@ import News from "./components/Landing/News";
 import Navbar from "./components/Navbar";
 import { movieDetails } from "./constants/moviesDetails";
 import { useLocation } from "react-router-dom";
+import Footer from "./components/Landing/Footer";
 
 export default function App() {
   const location = useLocation();
@@ -43,6 +44,7 @@ export default function App() {
         {movieDetails &&
           movieDetails.map((movie, index) => <Movies key={index} {...movie} />)}
       </div>
+      <Footer/>
     </div>
   );
 }
