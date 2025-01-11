@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-Eerie_Black text-gray-300 py-6">
       <div className="container mx-auto text-center">
         <p className="mb-4">
-          &copy; {new Date().getFullYear()} A. Chakraborty. All rights reserved.
+          &copy; {new Date().getFullYear()} Director Anirban Chakraborty. All rights reserved.
         </p>
         <div className="flex justify-center space-x-6 mt-4">
           <a
