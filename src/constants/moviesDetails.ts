@@ -41,13 +41,14 @@ export const movieDetails: MovieDetails[] = [
     titleBgColor: "#CE2020",
     directors: ["Anirban Chakraborty"],
     cast: ["Pulokita Ghosh", "Amlan Majumdar", "Joy Sengupta"],
-    mainImage: "https://i.ibb.co/fHbbwf9/images-1.png",
+    //mainImage: "https://i.ibb.co/fHbbwf9/images-1.png",
+    mainImage: "https://i.ibb.co/Rk4GV5Kb/IMG-20170123-WA0005.jpg",
     galleryImages: [
       "https://i.ibb.co/99ZM7ZK8/DSC1765.jpg",
       "https://i.ibb.co/9HLMkVH6/DSC1670.jpg",
       "https://i.ibb.co/DHYzq81F/KAU-6954.jpg",
+      "https://i.ibb.co/5hWQdgBZ/IMG-9902.jpg",
       "https://i.ibb.co/HT8Jr5j7/KAU-6885.jpg",
-      "https://i.ibb.co/mVQ3XXX5/KAU-7020.jpg",
     ],
   },
   {
