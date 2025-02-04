@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import img from "../../assets/Images/img5.png";
+import img1 from "../../assets/Images/KOLOM.png";
 
 function Media() {
   const [device, setDevice] = useState("desktop");
@@ -28,6 +29,7 @@ function Media() {
         device === "mobile" && (
           <div className="w-full object-cover">
             <img src={img} alt="Media" />
+            <img src={img1} alt="Media" />
           </div>
         )
       }
@@ -35,6 +37,9 @@ function Media() {
         device === "desktop" && (
           <div>
             <img src={img} alt="Media" className="w-full h-full object-cover" />
+            <div className="flex justify-center items-center">
+              <img src={img1} alt="Media" className="w-[50%] h-[50%] object-cover" />
+            </div>
           </div>
         )
       }
