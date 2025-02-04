@@ -52,6 +52,8 @@ function Home() {
     }
   }, [isInView]); // Runs every time the section is in view
 
+  console.log(isVisible);
+
   return (
     <div
       ref={sectionRef} // Reference to track visibility
