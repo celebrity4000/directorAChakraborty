@@ -2,7 +2,7 @@ interface MovieDetails {
   id: string;
   title: string;
   year: number;
-  titleBgColor: "Eerie_Black" | "Fire_Engine_Red" | "Forest_Green";
+  titleBgColor: string;
   directors: string[];
   writters?: string[];
   cast: string[];
@@ -15,7 +15,7 @@ export const movieDetails: MovieDetails[] = [
     id: "mallik-bari",
     title: "Mallick Bari",
     year: 2009,
-    titleBgColor: "Eerie_Black",
+    titleBgColor: "#1B1B1B",
     directors: ["Anirban Chakraborty", "P.J. Joseph"],
     cast: [
       "Sabyasachi Chakraborty",
@@ -29,31 +29,49 @@ export const movieDetails: MovieDetails[] = [
     mainImage: "https://i.ibb.co/jw0zjSP/maxresdefault.jpg",
     galleryImages: [
       "https://i.ibb.co/PY1TZPJ/thumb.jpg",
-      "https://i.ibb.co/cyG1kBS/hq720.jpg",
-      "https://i.ibb.co/mct98F6/thumb-1.jpg",
-      "https://i.ibb.co/Q9SzknY/hq720-1.jpg",
+      "https://i.ibb.co/dJHcYM42/Whats-App-Image-2025-02-04-at-12-53-03-18cde95f.jpg",
+      "https://i.ibb.co/Y51HNcn/Whats-App-Image-2025-02-04-at-12-53-04-619e39e0.jpg",
+      "https://i.ibb.co/m5Hht5M7/Whats-App-Image-2025-02-04-at-12-53-04-bb54deb0.jpg",
     ],
   },
   {
     id: "piklur-janala",
     title: "Piklur Janala",
     year: 2017,
-    titleBgColor: "Eerie_Black",
+    titleBgColor: "#CE2020",
     directors: ["Anirban Chakraborty"],
     cast: ["Pulokita Ghosh", "Amlan Majumdar", "Joy Sengupta"],
     mainImage: "https://i.ibb.co/fHbbwf9/images-1.png",
     galleryImages: [
-      "https://i.ibb.co/DkSKFP4/scene1-1.png",
-      "https://i.ibb.co/gwrGbmn/scene-2-1.png",
-      "https://i.ibb.co/DkSKFP4/scene1-1.png",
-      "https://i.ibb.co/gwrGbmn/scene-2-1.png",
+      "https://i.ibb.co/99ZM7ZK8/DSC1765.jpg",
+      "https://i.ibb.co/9HLMkVH6/DSC1670.jpg",
+      "https://i.ibb.co/DHYzq81F/KAU-6954.jpg",
+      "https://i.ibb.co/HT8Jr5j7/KAU-6885.jpg",
+      "https://i.ibb.co/mVQ3XXX5/KAU-7020.jpg",
+    ],
+  },
+  {
+    id: "Jah-kala",
+    title: "Jah Kala",
+    year: 2019,
+    titleBgColor: "#1B1B1B",
+    directors: ["Anirban Chakraborty"],
+    cast: ["Ena Saha", "Rajatava Dutta", "Kharaj Mukherjee"],
+    mainImage:
+      "https://i.ibb.co/9mRmTC9k/Whats-App-Image-2025-02-04-at-13-12-00-22e102ee.jpg",
+    galleryImages: [
+      "https://i.ibb.co/8DSY1Sbj/IMG-1346.jpg",
+      "https://i.ibb.co/VYqrhc9s/IMG-1034.jpg",
+      "https://i.ibb.co/Tx08cnDH/IMG-1022.jpg",
+      "https://i.ibb.co/tRSxxfx/IMG-1331.jpg",
+      "https://i.ibb.co/zH5PCd99/IMG-1144.jpg",
     ],
   },
   {
     id: "nonte-fonte",
     title: "Nonte Fonte",
     year: 2023,
-    titleBgColor: "Eerie_Black",
+    titleBgColor: "#1A2421",
     directors: ["Anirban Chakraborty"],
     cast: [
       "Paran Bandopadhyay",
@@ -82,7 +100,7 @@ export const movieDetails: MovieDetails[] = [
     id: "o-abhagi",
     title: "O Abhagi",
     year: 2024,
-    titleBgColor: "Eerie_Black",
+    titleBgColor: "#1B1B1B",
     directors: ["Anirban Chakraborty"],
     writters: ["Anirban Chakraborty", "Sarat Chandra Chattopadhayay"],
     cast: [
@@ -108,7 +126,7 @@ export const movieDetails: MovieDetails[] = [
     id: "khacha",
     title: "Khacha",
     year: 2025,
-    titleBgColor: "Eerie_Black",
+    titleBgColor: "#1A2421",
     directors: ["Anirban Chakraborty"],
     writters: ["Anirban Chakraborty"],
     cast: [
