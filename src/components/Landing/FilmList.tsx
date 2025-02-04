@@ -3,21 +3,18 @@ import { Link } from "react-router-dom";
 function FilmList() {
   const films = [
     {
+      id: "mallik-bari",
+      title: "Mallick Bari",
+    },
+    {
       id: "piklur-janala",
       title: "Piklur Janala",
     },
     {
-      id: "jah-kala",
+      id: "Jah-kala",
       title: "Jah Kala",
     },
-    {
-      id: "bonosundari",
-      title: "Bonosundari",
-    },
-    {
-      id: "mallik-bari",
-      title: "Mallick Bari",
-    },
+
     {
       id: "nonte-fonte",
       title: "Nonte Fonte",
